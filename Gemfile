@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+
+group :production, :staging do
+  gem "pg"
+end
  
 gem 'rails', '4.2.1'
  
